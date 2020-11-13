@@ -8,7 +8,6 @@ def speed(to_print):
     try:
         starting_health = inGame.bridge.simulation.lastSetHealth
         current_health = inGame.bridge.simulation.Health
-        inGame.bridge.simulation.SetHealth(1337)
         delta = starting_health - current_health
  
         ## Changing this value will effect how much you lose per bloon leak
